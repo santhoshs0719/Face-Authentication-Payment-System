@@ -34,7 +34,7 @@ def admin():
 @app.route("/admin_login")
 def admin1():
     return render_template('admin.html')
-############################################Test#####################################################################3
+#################################################################################################################3
 @app.route("/student_deposite")
 def student_deposite():
     un=session['uname']
